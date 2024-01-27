@@ -26,6 +26,5 @@ public class UserDriver {
 		
 		ApplicationContext con = new ClassPathXmlApplicationContext("user.xml");
 		System.out.println(con.getBean(Aadhar.class));
-		System.out.println("Hi");
 	}
 }
