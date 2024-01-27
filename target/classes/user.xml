@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+     <!--         
+     <bean class="Spring.User" id="user">
+     	<property name="id" value="1"></property>
+     	<property name="name" value="Jp"></property>
+     	<property name="contact" value="8778231615"></property>
+     </bean>       
+            
+    <bean class="Spring.Aadhar" id="aadhar">
+     	<property name="id" value="1"></property>
+     	<property name="city" value="Dindigul"></property>
+     	<property name="aadharNo" value="707947497727"></property>
+     	<property name="user" ref="user"></property>
+     </bean>       
+     -->
+     <!--  	 <bean class="Spring.User" id="user">
+	     	<constructor-arg name="id" value="1"></constructor-arg>
+	     	<constructor-arg name="name" value="Jp"></constructor-arg>
+	     	<constructor-arg name="contact" value="8778231615"></constructor-arg>
+     	</bean> 
+     		
+         <bean class="Spring.Aadhar" id="aadhar">
+	     	<constructor-arg name="id" value="1"></constructor-arg>
+	     	<constructor-arg name="city" value="Dindigul"></constructor-arg>
+	     	<constructor-arg name="aadharNo" value="707947497727"></constructor-arg>
+	     	<constructor-arg name="user" ref="user"></constructor-arg>
+      </bean>
+            -->
+            <context:component-scan base-package="Spring"></context:component-scan>
+</beans>
