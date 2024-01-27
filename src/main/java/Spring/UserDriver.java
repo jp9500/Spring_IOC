@@ -10,7 +10,6 @@ public class UserDriver {
 	
 	public static void main(String[] args)
 	{
-		
 //		ClassPathResource resource = new ClassPathResource("user.xml");
 //		BeanFactory factory = new XmlBeanFactory(resource);
 //		
